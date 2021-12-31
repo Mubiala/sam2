@@ -1,0 +1,242 @@
+.enteteP1
+{
+color:rgb(25, 25, 26);
+}
+
+body
+{
+    background : rgb(234, 235, 164);
+    font-family: 'Trebuchet MS' Arial, Helvetica, sans-serif;
+}
+
+#bloc_page
+{
+    width:99%;
+    margin: auto;
+}
+
+header
+{
+    background : rgb(146, 160, 207) repeat;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercasse; 
+}
+
+/* L'ENTETE DE PAGES*/
+
+
+header h1
+{
+    font-family: 'ballparkWeiner', serif;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* NAVIGATION */
+
+nav
+{
+   display: inline-block;
+   text-align: right;
+   width: 90%;
+}
+
+nav ul
+{
+   list-style-type: none; 
+}
+
+nav li
+{
+    display: inline-block; /* mettre les liens sur une même ligne */
+    margin-right: 15px;
+}  
+
+nav a
+{
+    font-size: 1.3em;
+    
+   
+    text-decoration: underline;
+}  
+
+nav a:hover
+{
+    color: #f813b3;
+    
+}  
+
+/* Banniere */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height:200px;
+    border-radius: 5px;
+    background: url('kinshasa.jpg');
+    background-repeat: repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 15px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-size: 0.8em;
+}
+
+/* Corp de la page */
+
+strong
+{
+   color: rgb(235, 29, 183);
+}
+
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+#titre_article
+{
+   font-weight: bolder;
+   color: rgb(231, 139, 1);
+}
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+article p
+{
+    font-size: 1em;
+}
+
+aside
+{
+    position: absolute;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#photo_ssm1
+{
+    text-align: center;
+    border: 1px solid #181818;
+    width: 230px;
+    height: 300px;
+}
+
+
+aside img 
+{
+ margin-right: 5px;
+}
+
+/* Footer */
+
+footer p
+{
+ font-size: 0.7;
+}
+
+footer h2
+{
+    font-size: 1em;
+}
+
+#monde-info,#suivez_nous, #light-year
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+#monde-info
+{
+   width: 20%;
+   
+}
+
+#suivez_nous
+{
+    position: absolute;
+    top: 3px;
+    align: center;
+    margin-left: 10%;
+    width: 40%;
+}
+ 
+#light_year
+{
+position: absolute;
+top: 3px;
+right: 2px;
+width: 40%;
+}
+
+footer
+{
+    position: relative;
+    margin-top: 2%; 
+}
+
+/* Footer  Image*/
+
+#image_footer_1
+{
+    width: 80px;
+    height: 90px;
+}
+
+#image_footer_2
+{
+    width: 80px;
+    height: 90px;
+}
+
+#image_footer_3
+{
+    width: 80px;
+    height: 90px;
+}
+
+#image_footer_4
+{
+    width: 80px;
+    height: 90px;
+}
+

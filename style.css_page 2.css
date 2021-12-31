@@ -1,0 +1,43 @@
+/* En-tête */
+
+header
+{
+    background-color: rgb(182, 181, 106);
+}
+
+header h1
+{
+    background-color: rgb(54, 54, 56);
+    color: rgb(224, 212, 212);
+    
+}
+
+/* Corp */
+
+body
+{
+    padding-right: 0px;
+}
+
+
+#photo_auteur
+{
+    border: 1px solid #181818;
+    width: 450px;
+    height: 470x;
+}
+
+#bloc_atout
+{    
+    text-align: center; 
+}
+
+#titre_atout
+{
+    position: relative;
+    left: 60px;
+    text-decoration: underline;
+}
+
+
+/* Footer */
